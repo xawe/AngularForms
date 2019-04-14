@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { AngularRestLabCreateComponent } from './angular-rest-lab-create/angular-rest-lab-create.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AngularRestLabCreateComponent
   ],
   imports: [
     BrowserModule,
